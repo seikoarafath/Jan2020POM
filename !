@@ -1,0 +1,28 @@
+export PATH=$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$PATH
+source ~/.profile
+export M2_HOME=/Users/NaveenKhunteta/Documents/Maven/apache-maven-3.5.0
+export PATH=$PATH:$M2_HOME/bin
+export ANDROID_HOME=/Users/NaveenKhunteta/Library/Android/sdk
+export PATH=$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools:$PATH
+Export PATH=/usr/local/bin
+export JAVA_HOME=$(/usr/libexec/java_home)
+export PATH=${JAVA_HOME}/bin:$PATH
+
+# Setting PATH for Python 3.7
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
+export PATH
+
+# Setting PATH for Python 3.7
+# The original version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:${PATH}"
+export PATH
+export APPLITOOLS_API_KEY='hGTNkO3XDtPrLtJQG0CfAncWSGGTYhLaM6UEDLZAjlA110'
+export PATH=/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:$PATH
+export EDITOR='subl -w'
+PATH=$PATH:/opt/metasploit-framework/bin
+export PATH=$PATH:/opt/metasploit-framework/bin
+export=/Users/NaveenKhunteta/Documents/drivers
+chrome () {
+    open -a "/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome" "$1"
+  }
